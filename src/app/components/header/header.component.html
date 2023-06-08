@@ -1,0 +1,15 @@
+<header>
+    <div class="container">
+        <a routerLink="/" class="logo">Food Cornor</a>
+        <nav>
+            <ul>
+                <li>
+                    <a href="">Login</a>
+                </li>
+                <li>
+                    <a routerLink="/cart-page">Cart <span *ngIf="cartQuantity">{{cartQuantity}}</span></a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
